@@ -1,17 +1,18 @@
 <?php
 require_once 'core.php';
+$gSongID = $_GET['songID'];
+//$gSongID = 2;
 
-$gFMID = $_GET['fmid'];
-$worshipLeader = getFMWorshipLeader($gFMID);
-$songs = getCurrentFMSongs($gFMID);
-
-$verseTitle = getFMVerseTitle($gFMID);
-$verse = getFMVerse($gFMID);
+$songTitle = getSongTitle($gSongID);
+$stanza = getStanza($gSongID);
+$chrous = getChrous($gSongID);
+$bridge = getBridge($gSongID);
 ?>
+
 <!DOCTYPE html> 
 <html> 
 	<head> 
-		<title><?php echo $gTitlePrefix; ?> 本週詩歌</title> 
+		<title>Page Title</title> 
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<meta charset="utf-8" />
@@ -23,39 +24,30 @@ $verse = getFMVerse($gFMID);
 	</head> 
 
 	<body> 
-		
 		<div data-role="page">
 			<div data-role="header">
-				<h1>本週詩歌</h1>
+				<h1><?php echo $songTitle; ?></h1>
 			</div>
 			
-			<div data-role="content" class="content">
-				
-				<p>領詩: <?php echo $worshipLeader; ?></p>
-				<p><?php echo $verseTitle; ?>: <br /><?php echo $verse; ?></p>
-				
-				<hr />
-				
-				<ul data-role="listview">
-					
+			<div data-role="content" class="content-song">
 				<?php
-				for($i=0; $i<count($songs); $i++) {
-					echo '<li><a href="#s'.$songs[$i].'">'.getSongTitle($songs[$i]).'</a></li>';
+				for($i=0; $i<count($stanza); $i++) {
+					echo ($i+1).'<br />';
+					echo $stanza[$i];
+					if($i==0 && $chrous != '') {
+						echo '<br /><hr />';
+						echo 'Chrous:<br />';
+						echo $chrous;
+						
+					}
+					echo '<hr />';
 				}
 				?>
-				</ul>
-				
 			</div>
 			
 			<div data-role="footer">
 				<h4><?php echo $gFooterMessage; ?></h4>
 			</div>
 		</div>
-		
-		<?php
-		for($i=0; $i<count($songs); $i++) {
-			echo getSongDisplay($songs[$i]);
-		}
-		?>
 	</body>
 </html>

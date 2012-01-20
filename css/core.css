@@ -1,4 +1,13 @@
-.content {
-	font-size: medium;
+.content-song {
+	font-size: larger;
 	font-weight: bolder;
+	line-height: 150%;
+}
+
+.tf-bar {
+	text-align: center;
+}
+
+#tf-banner {
+	text-align: center;
 }
