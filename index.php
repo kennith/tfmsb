@@ -58,6 +58,10 @@ $currentFMDate = getCurrentFMDate($currentFMID);
 						<li>
 							<a href="song-book.php">歌書</a>
 						</li>
+						
+						<li>
+							<a href="#qr" data-rel="dialog">QR</a>
+						</li>
 					</ul>
 				</div>
 				
@@ -102,5 +106,20 @@ $currentFMDate = getCurrentFMDate($currentFMID);
 				<h4><?php echo $gFooterMessage; ?></h4>
 			</div><!-- /footer -->
 		</div><!-- /fs -->
+		
+		<div data-role="page" id="qr">
+
+			<div data-role="header">
+			</div><!-- /header -->
+		
+			<div data-role="content">	
+				<img src="img/generator.png" />
+			</div><!-- /content -->
+			
+			<div data-role="footer">
+				<h4><?php echo $gFooterMessage; ?></h4>
+			</div><!-- /footer -->
+		</div><!-- /fs -->
+		
 	</body>
 </html>
