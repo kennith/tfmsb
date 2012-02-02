@@ -30,7 +30,14 @@ function getChrous($songID) {
 	return nl2br($row['chrous']);	
 }
 
-function getBridge($songID) {}
+function getBridge($songID) {
+	$q = 'select `bridge` from `bridge` where `song_id` = "'.$songID.'"';
+	$r = mysql_query($q) or exit(mysql_error());
+	
+	$row = mysql_fetch_array($r);
+	
+	return nl2br($row['bridge']);	
+}
 
 function getSongDisplay($songID) {
 	$title = getSongTitle($songID);
@@ -48,7 +55,7 @@ function getSongDisplay($songID) {
 		<div data-role="content">';
 	
 	for($i=0; $i<count($stanza); $i++) {
-		$sd .= ($i+1).'<br />';
+		$sd .= '<div class="tf-stanza-number">'.($i+1).'</div>';
 		$sd .= $stanza[$i];
 		if($i==0 && $chrous != '') {
 			$sd .= '<br /><hr />';
@@ -57,6 +64,11 @@ function getSongDisplay($songID) {
 			
 		}
 		$sd .= '<hr />';
+	}
+	
+	if($bridge) {
+		$sd .= 'Bridge: <br />';
+		$sd .= $bridge;
 	}
 	
 	

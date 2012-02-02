@@ -24,13 +24,20 @@ $bridge = getBridge($gSongID);
 	</head> 
 
 	<body> 
+		<!--
 		<div data-role="page">
 			<div data-role="header">
 				<h1><?php echo $songTitle; ?></h1>
 			</div>
 			
 			<div data-role="content" class="content-song">
+		-->
 				<?php
+				
+				$sd = getSongDisplay($gSongID);
+				echo $sd;
+				
+				/*
 				for($i=0; $i<count($stanza); $i++) {
 					echo ($i+1).'<br />';
 					echo $stanza[$i];
@@ -42,12 +49,15 @@ $bridge = getBridge($gSongID);
 					}
 					echo '<hr />';
 				}
+				*/
 				?>
-			</div>
+			<!--</div>
 			
 			<div data-role="footer">
 				<h4><?php echo $gFooterMessage; ?></h4>
 			</div>
+			
 		</div>
+		-->
 	</body>
 </html>

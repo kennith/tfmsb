@@ -8,6 +8,11 @@
 	text-align: center;
 }
 
+.tf-stanza-number {
+	font-size: 10px;
+	font-weight: normal;
+}
+
 #tf-banner {
 	text-align: center;
 }
