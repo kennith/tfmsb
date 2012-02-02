@@ -91,21 +91,10 @@ $currentFMDate = getCurrentFMDate($currentFMID);
 			</div><!-- /footer -->
 		</div><!-- /fv -->
 		
-		<div data-role="page" id="fs">
-
-			<div data-role="header">
-				<h1>團歌</h1>
-			</div><!-- /header -->
-		
-			<div data-role="content">	
-				404
-				
-			</div><!-- /content -->
-			
-			<div data-role="footer">
-				<h4><?php echo $gFooterMessage; ?></h4>
-			</div><!-- /footer -->
-		</div><!-- /fs -->
+		<?php
+		$fs = getSongDisplay(14, 'fs');
+		echo $fs;
+		?>
 		
 		<div data-role="page" id="qr">
 

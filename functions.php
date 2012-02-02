@@ -39,14 +39,18 @@ function getBridge($songID) {
 	return nl2br($row['bridge']);	
 }
 
-function getSongDisplay($songID) {
+function getSongDisplay($songID, $htmlTagID='') {
 	$title = getSongTitle($songID);
 	$stanza = getStanza($songID);
 	$chrous = getChrous($songID);
 	$bridge = getBridge($songID);
 	
+	if($htmlTagID=='') {
+		$htmlTagID = 's'.$songID.'';
+	}
+	
 	$sd = '
-	<div data-role="page" id="s'.$songID.'" class="content-song">
+	<div data-role="page" id="'.$htmlTagID.'" class="content-song">
 
 		<div data-role="header">
 			<h1>'.$title.'</h1>
