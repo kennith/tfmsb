@@ -16,10 +16,10 @@ $verse = getFMVerse($gFMID);
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<meta charset="utf-8" />
 	
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+		<link rel="stylesheet" href="<?php echo $gJQCSS; ?>" />
 		<link rel="stylesheet" href="css/core.css" />
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-		<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+		<script type="text/javascript" src="<?php echo $gJQ; ?>"></script>
+		<script type="text/javascript" src="<?php echo $gJQJS; ?>"></script>
 	</head> 
 
 	<body> 
@@ -32,7 +32,12 @@ $verse = getFMVerse($gFMID);
 			<div data-role="content" class="content">
 				
 				<p>領詩: <?php echo $worshipLeader; ?></p>
-				<p><?php echo $verseTitle; ?>: <br /><?php echo $verse; ?></p>
+				
+				<?php
+				if($verseTitle) {
+					echo '<p>'.$verseTitle.': <br />'.$verse.'</p>';
+				}
+				?>
 				
 				<hr />
 				

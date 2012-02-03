@@ -13,6 +13,10 @@
 	font-weight: normal;
 }
 
+.tf-align-center {
+	text-align: center;
+}
+
 #tf-banner {
 	text-align: center;
 }
