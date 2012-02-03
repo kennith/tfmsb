@@ -64,7 +64,7 @@ require_once 'core.php';
 						$firstLetter = $row['song_first_letter'];
 						echo '<div class="ui-block-'.$set[$i%3].'">
 							<div class="ui-bar ui-bar-c tf-bar">
-								<a href="song-list.php?firstLetter='.$firstLetter.'">
+								<a href="song-list.php?firstLetter='.$firstLetter.'" data-prefetch>
 									'.$firstLetter.'
 								</a>
 							</div>
