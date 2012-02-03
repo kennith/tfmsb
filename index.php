@@ -92,7 +92,7 @@ $currentFMDate = getCurrentFMDate($currentFMID);
 		</div><!-- /fv -->
 		
 		<?php
-		$fs = getSongDisplay(14, 'fs');
+		$fs = getSongDisplay($gTFSongID, 'fs');
 		echo $fs;
 		?>
 		
