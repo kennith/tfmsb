@@ -23,31 +23,36 @@ require_once 'core.php';
 			</div>
 			
 			<div data-role="content" class="content">
+				<!--//
 				<?php
+				/*
 				$q = 'select song_id, song_title from song order by song_title';
 				$r = mysql_query($q) or exit(mysql_error());
 				
 				for($i=0; $row = mysql_fetch_array($r); $i++) {
 					echo '<div><a href="song-display.php?songID='.$row['song_id'].'">'.$row['song_title'].'</a></div>';
 				}
+				*/
 				?>
 				
 				<hr />
 				
 				<ul data-role="listview">
 					<?php
+					/*
 					$q = 'select `song_first_letter` from `song` group by `song_first_letter` order by `song_first_letter`';
 					$r = mysql_query($q) or exit(mysql_error());
 					
 					while($row=mysql_fetch_array($r)) {
 						echo '<li>'.$row['song_first_letter'].'</li>';
 					}
+					*/
 					?>
 				</ul>
 				
 				<hr />
 				
-				
+				-->
 				<div class="ui-grid-b">
 					<?php
 					$set = Array('a', 'b', 'c');
