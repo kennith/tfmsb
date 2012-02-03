@@ -63,7 +63,7 @@ function getSongDisplay($songID, $htmlTagID='') {
 		$sd .= $stanza[$i];
 		if($i==0 && $chrous != '') {
 			$sd .= '<br /><hr />';
-			$sd .= 'Chrous:<br />';
+			$sd .= '<div class="tf-stanza-number">Chrous:</div>';
 			$sd .= $chrous;
 			
 		}
@@ -71,7 +71,7 @@ function getSongDisplay($songID, $htmlTagID='') {
 	}
 	
 	if($bridge) {
-		$sd .= 'Bridge: <br />';
+		$sd .= '<div class="tf-stanza-number">Bridge:</div>';
 		$sd .= $bridge;
 	}
 	
