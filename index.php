@@ -13,10 +13,10 @@ $currentFMDate = getCurrentFMDate($currentFMID);
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
 		<meta charset="utf-8" />
 	
-		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css" />
+		<link rel="stylesheet" href="<?php echo $gJQCSS; ?>" />
 		<link rel="stylesheet" href="css/core.css" />
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
-		<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+		<script type="text/javascript" src="<?php echo $gJQ; ?>"></script>
+		<script type="text/javascript" src="<?php echo $gJQJS; ?>"></script>
 	</head> 
 
 	<body> 
@@ -99,10 +99,11 @@ $currentFMDate = getCurrentFMDate($currentFMID);
 		<div data-role="page" id="qr">
 
 			<div data-role="header">
+				<h1>QR Code</h1>
 			</div><!-- /header -->
 		
-			<div data-role="content">	
-				<img src="img/generator.png" />
+			<div data-role="content" data-rel="back" class="tf-align-center">
+				<img src="<?php echo $gQRImgUrl; ?>" />
 			</div><!-- /content -->
 			
 			<div data-role="footer">
