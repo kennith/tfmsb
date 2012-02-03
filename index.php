@@ -56,7 +56,7 @@ $currentFMDate = getCurrentFMDate($currentFMID);
 						</li>
 												
 						<li>
-							<a href="song-book.php">歌書</a>
+							<a href="song-book.php">歌書 <span class="tf-annot">experiential</span></a>
 						</li>
 						
 						<li>

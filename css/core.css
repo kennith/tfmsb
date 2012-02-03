@@ -17,6 +17,11 @@
 	text-align: center;
 }
 
+.tf-annot {
+	font-size: 10px;
+	color: #aaa;
+}
+
 #tf-banner {
 	text-align: center;
 }
