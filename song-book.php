@@ -61,9 +61,12 @@ require_once 'core.php';
 					$r = mysql_query($q) or exit(mysql_error());
 					
 					for($i=0; $row=mysql_fetch_array($r); $i++) {
+						$firstLetter = $row['song_first_letter'];
 						echo '<div class="ui-block-'.$set[$i%3].'">
 							<div class="ui-bar ui-bar-c tf-bar">
-							'.$row['song_first_letter'].'
+								<a href="song-list.php?firstLetter='.$firstLetter.'">
+									'.$firstLetter.'
+								</a>
 							</div>
 						</div>';
 					}
