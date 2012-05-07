@@ -1,3 +1,13 @@
+
+@media all {
+	body { font-size: medium; }
+}
+
+@media (min-width: 980px) {
+	body { font-size: 150%;	}
+	.ui-header .ui-btn, .ui-footer .ui-btn, .ui-bar .ui-btn { font-size: 150%; }
+}
+
 .content-song {
 	font-size: larger;
 	font-weight: bolder;
