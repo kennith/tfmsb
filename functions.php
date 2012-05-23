@@ -1,4 +1,11 @@
 <?php
+function isLogin() {
+	if(!isset($_SESSION['userName'])) {
+		header('Location: admin-login.php'); exit;
+		echo 'not login, exiting'; 
+	}
+}
+
 function getSongTitle($songID) {
 	$q = 'select `song_title` from song where song_id="'.$songID.'"';	
 	$r = mysql_query($q) or exit(mysql_error());
@@ -6,6 +13,16 @@ function getSongTitle($songID) {
 	$row = mysql_fetch_array($r);
 	
 	return $row['song_title'];
+}
+
+function getSongFirstLetter($songID) {
+	$songID = mysql_real_escape_string($songID);
+	$q = 'select `song_first_letter` from song where song_id="'.$songID.'"';	
+	$r = mysql_query($q) or exit(mysql_error());
+	
+	$row = mysql_fetch_array($r);
+	
+	return $row['song_first_letter'];
 }
 
 function getStanza($songID) {

@@ -1,0 +1,32 @@
+div { border: 1px dashed #eee;}
+
+#tf-container {
+	margin: auto;
+	overflow: auto;
+	width: 920px;
+}
+
+#tf-song-list-container {
+	float: left;
+	height: 300px;
+	width: 300px;
+	overflow: auto;
+}
+
+#tf-song-action-container {
+	float: left;
+	overflow: auto;
+	width: 500px;
+}
+
+#tf-song {
+	float: left;
+	height: 400px;
+	overflow: auto;
+	width: 500px;
+}
+
+.tf-song-list-row:hover {
+	background-color: #dedede;
+	cursor: pointer;
+}
