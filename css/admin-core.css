@@ -1,5 +1,10 @@
 div { border: 1px dashed #eee;}
 
+body {
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
 #tf-container {
 	margin: auto;
 	overflow: auto;
@@ -29,4 +34,12 @@ div { border: 1px dashed #eee;}
 .tf-song-list-row:hover {
 	background-color: #dedede;
 	cursor: pointer;
+}
+
+#tf-song-choose-container {
+	overflow: auto;
+}
+.tf-song-choose {
+	float: left;
+	width: 220px;
 }

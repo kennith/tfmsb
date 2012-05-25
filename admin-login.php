@@ -2,11 +2,12 @@
 <html>
 	<head>
 		<title>Admin Login</title>
+		<link rel="stylesheet" href="css/admin-core.css" />
 	</head>
 
 	<body>
 		<div id="tf-container">
-			<form action="admin-login-verify" method="post">
+			<form action="admin-login-verify.php" method="post">
 				<div>Login</div>
 				<div><input type="text" name="name" value="" placeholder="e.g. User" /></div>
 

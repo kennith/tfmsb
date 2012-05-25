@@ -6,6 +6,16 @@ function isLogin() {
 	}
 }
 
+function isLoginVerified($name, $password) {
+	$name = mysql_real_escape_string($name);
+	$password = mysql_real_escape_string($password);
+
+	$q = 'select user_id from user where `user_name` = "'.$name.'" and `user_password` = "'.$password.'"';
+	$r = mysql_query($q) or exit(mysql_error());
+
+	return mysql_num_rows($r);
+}
+
 function getSongTitle($songID) {
 	$q = 'select `song_title` from song where song_id="'.$songID.'"';	
 	$r = mysql_query($q) or exit(mysql_error());
@@ -125,6 +135,15 @@ function getCurrentFMDate($fmid) {
 	return $row['fm_date'];
 }
 
+function getCurrentFMSongLeader($fmid) {
+	$q = 'select `fm_song_leader` from `fm` where `fm_id` = "'.$fmid.'"';
+	$r = mysql_query($q) or exit(mysql_error());
+	
+	$row = mysql_fetch_array($r);
+	
+	return $row['fm_song_leader'];
+}
+
 function getCurrentFMSongs($fmid) {
 	$songs = Array();
 	
@@ -160,5 +179,34 @@ function getFMVerseTitle($fmid) {
 	$row = mysql_fetch_array($r);
 	
 	return $row['fm_verse_title'];
+}
+
+function checkFM($week) {
+	$q = 'select `fm_id` from `fm` where `fm_week`='.$week.'';
+	$r = mysql_query($q) or exit(mysql_error());
+
+	if(mysql_num_rows($r) > 0) {
+		//echo 'already inserted for this week, remove, then proceed';
+		$q = 'delete from `fm` where `fm_week` = '.$week.'';
+		$r = mysql_query($q) or exit(mysql_error());
+	} else {
+		//echo 'proceed';
+	}
+}
+
+function addFM($week, $songLeader, $songIDs) {
+	$week = mysql_real_escape_string($week);
+	$songLeader = mysql_real_escape_string($songLeader);
+
+	$q = 'insert into `fm` (`fm_week`, `fm_song_leader`) values ("'.$week.'", "'.$songLeader.'")';
+	$r = mysql_query($q) or exit(mysql_error());
+
+	$fmID = mysql_insert_id();
+
+	foreach($songIDs as $songID) {
+		$songID = mysql_real_escape_string($songID);
+		$q = 'insert into `fm_song` (`fm_id`, `song_id`) values ("'.$fmID.'", "'.$songID.'")';
+		$r = mysql_query($q) or exit(mysql_error());
+	}
 }
 ?>

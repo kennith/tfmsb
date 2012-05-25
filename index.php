@@ -3,6 +3,7 @@ require_once 'core.php';
 
 $currentFMID = getCurrentFMID();
 $currentFMDate = getCurrentFMDate($currentFMID);
+$currentFMSongLeader = getCurrentFMSongLeader($currentFMID);
 
 ?>
 <!DOCTYPE html> 
@@ -40,7 +41,7 @@ $currentFMDate = getCurrentFMDate($currentFMID);
 							.
 						</li>
 						<li>
-							<a href="song-of-the-week.php?fmid=<?php echo $currentFMID; ?>" rel="external" data-prefetch>本週詩歌:  <?php echo $currentFMDate; ?></a>
+							<a href="song-of-the-week.php?fmid=<?php echo $currentFMID; ?>" rel="external" data-prefetch>本週詩歌 by <?php echo $currentFMSongLeader; ?></a>
 						</li>
 						<li>
 							<a href="#fv">團訓</a>
