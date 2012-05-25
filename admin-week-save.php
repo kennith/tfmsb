@@ -13,6 +13,5 @@ $gSongIDs = $_POST['songIDs'];
 checkFM($gWeek);
 addFM($gWeek, $gSongLeader, $gSongIDs);
 
-
-header('Location: admin-week-add.php'); exit;
+header('Location: admin-song-list.php'); exit;
 ?>

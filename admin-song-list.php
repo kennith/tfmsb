@@ -14,6 +14,8 @@ isLogin();
 		<div id="tf-container">
 			<div>
 			<a href="admin-song-add.php">Add Song</a>
+			<a href="admin-week-add.php">Fellowship meeting</a>
+			<a href="index.php">Site</a>
 			</div>
 			<div id="tf-song-list-container">
 				<?php
