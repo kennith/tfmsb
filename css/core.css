@@ -1,6 +1,7 @@
 
 @media all {
-	body { font-size: small; }
+	body { font-size: medium; }
+	.ui-bar { font-size: 14px;}
 }
 
 @media (min-width: 980px) {
