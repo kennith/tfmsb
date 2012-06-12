@@ -1,6 +1,6 @@
 
 @media all {
-	body { font-size: medium; }
+	body { font-size: small; }
 }
 
 @media (min-width: 980px) {
