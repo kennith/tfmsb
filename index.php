@@ -63,6 +63,10 @@ $currentFMSongLeader = getCurrentFMSongLeader($currentFMID);
 						<li>
 							<a href="#qr" data-rel="dialog">QR</a>
 						</li>
+
+						<li>
+							<a href="2012-summer-retreat.php">Summer Retreat 2012</a>
+						</li>
 					</ul>
 				</div>
 				
