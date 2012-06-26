@@ -19,6 +19,7 @@ require_once 'core.php';
 	<body> 
 		<div data-role="page">
 			<div data-role="header" data-position="fixed">
+				<h1>Devotion</h1>
 				<div data-role="navbar">
 					<ul>
 						<li><a href="#p20120630">6/30</a></li>
@@ -31,9 +32,19 @@ require_once 'core.php';
 		</div>
 
 		<div data-role="page" id="p20120630">
+			<div data-role="header" data-position="fixed">
+				<h1>Devotion</h1>
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#p20120630" class="ui-btn-active">6/30</a></li>
+						<li><a href="#p20120701">7/1</a></li>
+					</ul>
+				</div><!-- /navbar -->
+
+			</div><!-- /header -->
 
 			<div data-role="content">
-				<h5>Eliminate Negative Self-Talk</h5>
+				<h3>Eliminate Negative Self-Talk</h3>
 
 				<p>"Be careful how you think; your life is shaped by your thoughts." (Proverbs 4:23 GN)</p>
 
@@ -62,6 +73,17 @@ require_once 'core.php';
 		</div>
 
 		<div data-role="page" id="p20120701">
+
+			<div data-role="header" data-position="fixed">
+				<h1>Devotion</h1>
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#p20120630">6/30</a></li>
+						<li><a href="#p20120701" class="ui-btn-active">7/1</a></li>
+					</ul>
+				</div><!-- /navbar -->
+			</div><!-- /header -->
+
 			<div data-role="content">
 
 				<h3>You Have a Role in the Body of Christ</h3>

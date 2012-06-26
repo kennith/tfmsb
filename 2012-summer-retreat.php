@@ -17,16 +17,29 @@ require_once 'core.php';
 	</head> 
 
 	<body> 
+		<?php
+		date_default_timezone_set('America/Los_Angeles');
+		$d = date('Ymd');
+		($d < 20120629) ? $d = 20120629 : '';
+		$d = '#p'.$d;
+		?>
 		<div data-role="page">
+			<div data-role="header">
+				<h1>Summer Retreat</h1>
+			</div>
 
 			<div data-role="content">
+				<?php
+				//echo date_default_timezone_get();
+				//echo $d;
+				?>
 				<div class="content-primary">
 					<ul data-role="listview" data-inset="true"  data-divider-theme="a">
 						<li data-role="list-divider">
 							Summer Retreat 2012
 						</li>
 						<li>
-							<a href="2012-summer-retreat-schedule.php">Schedule</a>
+							<a href="2012-summer-retreat-schedule.php<?php echo $d; ?>" rel="external">Schedule</a>
 						</li>
 
 						<li>
@@ -34,7 +47,7 @@ require_once 'core.php';
 						</li>
 
 						<li>
-							<a href="2012-summer-retreat-devotion.php">Devotion</a>
+							<a href="2012-summer-retreat-devotion.php<?php echo $d; ?>" rel="external">Devotion</a>
 						</li>
 					</ul>
 
