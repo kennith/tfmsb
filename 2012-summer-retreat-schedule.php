@@ -88,7 +88,7 @@ require_once 'core.php';
 				<p class="ui-li-desc">Everyone</p>
 			</li>
 			<li>
-				<a href="2012-summer-retreat-devotion.php#p20120630">
+				<a href="2012-summer-retreat-devotion.php#p20120630" rel="external">
 				<p class="ui-li-aside">8:30am</p>
 				<h3 class="ui-li-heading">Devotion</h3>
 				<p class="ui-li-desc">Read your own's, or
