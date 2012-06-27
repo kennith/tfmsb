@@ -108,9 +108,11 @@ require_once 'core.php';
 				<p class="ui-li-desc">Prepared by Katie</p>
 			</li>
 			<li>
+				<a href="2012-summer-retreat-songs.php#song-kleung" rel="external">
 				<p class="ui-li-aside">10:30am</p>
 				<h3 class="ui-li-heading">Singspiration</h3>
 				<p class="ui-li-desc">Lead by Kennith</p>
+				</a>
 			</li>
 			<li>
 				<p class="ui-li-aside">11:00am</p>
@@ -133,9 +135,11 @@ require_once 'core.php';
 				<p class="ui-li-desc">Prepared by everyone</p>
 			</li>
 			<li>
-				<p class="ui-li-aside">7:30pm</p>
-				<h3 class="ui-li-heading">Sinspiration</h3>
-				<p class="ui-li-desc">Lead by Aron</p>
+				<a href="2012-summer-retreat-songs.php#song-achen" rel="external">
+					<p class="ui-li-aside">7:30pm</p>
+					<h3 class="ui-li-heading">Singspiration</h3>
+					<p class="ui-li-desc">Lead by Aron</p>
+				</a>
 			</li>
 			<li>
 				<p class="ui-li-aside">8:00pm</p>
@@ -200,9 +204,11 @@ require_once 'core.php';
 				<p class="ui-li-desc">Prepared by Katie</p>
 			</li>
 			<li>
+				<a href="2012-summer-retreat-songs.php#song-skwok" rel="external">
 				<p class="ui-li-aside">10:30am</p>
 				<h3 class="ui-li-heading">Singspiration</h3>
 				<p class="ui-li-desc">Lead by Suki</p>
+				</a>
 			</li>
 			<li>
 				<p class="ui-li-aside">11:00am</p>

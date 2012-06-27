@@ -33,6 +33,7 @@ require_once 'core.php';
 
 		<div data-role="page" id="song-kleung">
 			<div data-role="header">
+				<a href="2012-summer-retreat.php" data-icon="home" data-iconpos="notext"  title="Home"></a>
 				<h1>Lead by Kennith</h1>
 			</div>
 			<div data-role="content">
@@ -48,6 +49,7 @@ require_once 'core.php';
 
 		<div data-role="page" id="song-achen">
 			<div data-role="header">
+				<a href="2012-summer-retreat.php" data-icon="home" data-iconpos="notext"  title="Home"></a>
 				<h1>Lead by Aron</h1>
 			</div>
 			<div data-role="content">
@@ -64,6 +66,7 @@ require_once 'core.php';
 
 		<div data-role="page" id="song-skwok">
 			<div data-role="header">
+				<a href="2012-summer-retreat.php" data-icon="home" data-iconpos="notext"  title="Home"></a>
 				<h1>Lead by Suki</h1>
 			</div>
 			<div data-role="content">

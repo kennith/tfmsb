@@ -29,6 +29,14 @@ require_once 'core.php';
 			</div>
 
 			<div data-role="content">
+				<div style="text-align: center;">
+					<div>
+						<img src="img/worship.jpg" />
+					</div>
+					<div>
+						R & R - First Step to Unity in Our Holy Hope
+					</div>
+				</div>
 				<?php
 				//echo date_default_timezone_get();
 				//echo $d;
@@ -61,7 +69,7 @@ require_once 'core.php';
 						</li>
 
 						<li>
-							<a href="">Location</a>
+							<a href="2012-summer-retreat-direction.php">Direction</a>
 						</li>
 
 
