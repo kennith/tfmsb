@@ -28,22 +28,12 @@ require_once 'core.php';
 				</div><!-- /navbar -->
 
 			</div><!-- /header -->
-
-			<?php
-			$i=0;
-			while($i < 10) {
-				echo "<div>test</div>";
-				$i++;
-			}; 
-			?>
-
-
 		</div>
 
 <!-- Start of second page: #p20120629-->
 <div data-role="page" id="p20120629">
 
-	<div data-role="header">
+	<div data-role="header" data-position="fixed">
 		<h1>Schedule</h1>
 		<a href="2012-summer-retreat.php" data-icon="home" data-iconpos="notext"  title="Home"></a>
 		<div data-role="navbar">
@@ -78,7 +68,7 @@ require_once 'core.php';
 <!-- Start of page: #p20120630-->
 <div data-role="page" id="p20120630">
 
-	<div data-role="header">
+	<div data-role="header" data-position="fixed">
 		<h1>Schedule</h1>
 		<a href="2012-summer-retreat.php" data-icon="home" data-iconpos="notext"  title="Home"></a>
 		<div data-role="navbar">
@@ -98,10 +88,13 @@ require_once 'core.php';
 				<p class="ui-li-desc">Everyone</p>
 			</li>
 			<li>
-				<a href="">
+				<a href="2012-summer-retreat-devotion.php#p20120630">
 				<p class="ui-li-aside">8:30am</p>
 				<h3 class="ui-li-heading">Devotion</h3>
-				<p class="ui-li-desc">Read or click to see today's devotion</p>
+				<p class="ui-li-desc">Read your own's, or
+				</p>
+				<p class="ui-li-desc"> 
+					touch to see today's devotion</p>
 				</a>
 			</li>
 			<li>
@@ -169,7 +162,7 @@ require_once 'core.php';
 <!-- Start of second page: #p20120701-->
 <div data-role="page" id="p20120701">
 
-	<div data-role="header">
+	<div data-role="header" data-position="fixed">
 		<h1>Schedule</h1>
 		<a href="2012-summer-retreat.php" data-icon="home" data-iconpos="notext"  title="Home"></a>
 		<div data-role="navbar">
@@ -189,11 +182,11 @@ require_once 'core.php';
 				<p class="ui-li-desc">Everyone</p>
 			</li>
 			<li>
-				<a href="">
+				<a href="2012-summer-retreat-devotion.php#p20120701" rel="external">
 				<p class="ui-li-aside">8:30am</p>
 				<h3 class="ui-li-heading">Devotion</h3>
 				<p class="ui-li-desc">Read your own, or 
-				<p class="ui-li-desc">Touch to see today's devotion prepared by the committee</p>
+				<p class="ui-li-desc">Touch to see today's devotion.</p>
 				</a>
 			</li>
 			<li>
@@ -217,11 +210,14 @@ require_once 'core.php';
 				<p class="ui-li-desc">Lead by Cat and Harold</p>
 			</li>
 			<li>
-				<p class="ui-li-aside">11:00am</p>
-				<h3 class="ui-li-heading">Topic</h3>
+				<p class="ui-li-aside">11:45am</p>
+				<h3 class="ui-li-heading">Lunch</h3>
 				<p class="ui-li-desc">Prepared by Suki and Cat</p>
 				<p class="ui-li-desc">
-					2012 Euro Cup Final – Tim will provide snacks. (Steaks & Lobsters)
+					2012 Euro Cup Final – Tim will provide snacks.
+				</p>
+				<p class="ui-li-desc">
+					(Steaks & Lobsters)
 				</p>
 				<p class="ui-li-desc">
 					All Party clean up and leave by

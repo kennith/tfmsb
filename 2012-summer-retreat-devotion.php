@@ -31,11 +31,34 @@ require_once 'core.php';
 
 		</div>
 
+
+		<div data-role="page" id="p20120629">
+			<div data-role="header" data-position="fixed">
+				<h1>Devotion</h1>
+				<a href="2012-summer-retreat.php" data-icon="home" data-iconpos="notext" title="Home"></a>
+				<div data-role="navbar">
+					<ul>
+						<li><a href="#p20120629" class="ui-btn-active">6/29</a></li>
+						<li><a href="#p20120630" class="">6/30</a></li>
+						<li><a href="#p20120701">7/1</a></li>
+					</ul>
+				</div><!-- /navbar -->
+
+			</div><!-- /header -->
+
+			<div data-role="content">
+				No devotion for 6/29
+			</div>
+		</div>
+
+
 		<div data-role="page" id="p20120630">
 			<div data-role="header" data-position="fixed">
 				<h1>Devotion</h1>
+				<a href="2012-summer-retreat.php" data-icon="home" data-iconpos="notext" title="Home"></a>
 				<div data-role="navbar">
 					<ul>
+						<li><a href="#p20120629">6/29</a></li>
 						<li><a href="#p20120630" class="ui-btn-active">6/30</a></li>
 						<li><a href="#p20120701">7/1</a></li>
 					</ul>
@@ -76,8 +99,10 @@ require_once 'core.php';
 
 			<div data-role="header" data-position="fixed">
 				<h1>Devotion</h1>
+				<a href="2012-summer-retreat.php" data-icon="home" data-iconpos="notext" title="Home"></a>
 				<div data-role="navbar">
 					<ul>
+						<li><a href="#p20120629">6/29</a></li>
 						<li><a href="#p20120630">6/30</a></li>
 						<li><a href="#p20120701" class="ui-btn-active">7/1</a></li>
 					</ul>
