@@ -47,6 +47,10 @@ require_once 'core.php';
 						</li>
 
 						<li>
+							<a href="2012-summer-retreat-songs.php" rel="external">Singspiration</a>
+						</li>
+
+						<li>
 							<a href="2012-summer-retreat-devotion.php<?php echo $d; ?>" rel="external">Devotion</a>
 						</li>
 					</ul>
