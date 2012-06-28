@@ -51,7 +51,7 @@ require_once 'core.php';
 						</li>
 
 						<li>
-							<a href="">Topic</a>
+							<a href="2012-summer-retreat-topics.php" rel="external">Topic</a>
 						</li>
 
 						<li>
