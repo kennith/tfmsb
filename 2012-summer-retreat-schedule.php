@@ -211,9 +211,11 @@ require_once 'core.php';
 				</a>
 			</li>
 			<li>
-				<p class="ui-li-aside">11:00am</p>
-				<h3 class="ui-li-heading">Topic</h3>
-				<p class="ui-li-desc">Lead by Cat and Harold</p>
+				<a href="2012-summer-retreat-topics.php#cat" rel="external">
+					<p class="ui-li-aside">11:00am</p>
+					<h3 class="ui-li-heading">Topic</h3>
+					<p class="ui-li-desc">Lead by Cat and Harold</p>
+				</a>
 			</li>
 			<li>
 				<p class="ui-li-aside">11:45am</p>
