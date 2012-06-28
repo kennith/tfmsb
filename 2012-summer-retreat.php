@@ -34,7 +34,8 @@ require_once 'core.php';
 						<img src="img/worship.jpg" />
 					</div>
 					<div>
-						R & R - First Step to Unity in Our Holy Hope
+						<p>R & R</p>
+						<p>First Step to Unity in Our Holy Hope</p>
 					</div>
 				</div>
 				<?php

@@ -67,29 +67,19 @@ require_once 'core.php';
 			</div><!-- /header -->
 
 			<div data-role="content">
-				<h3>Eliminate Negative Self-Talk</h3>
-
-				<p>"Be careful how you think; your life is shaped by your thoughts." (Proverbs 4:23 GN)</p>
-
-				<p>Long before psychology came around, God said your thoughts determine your feelings and your feelings determine your actions. If you want to change your life, you have to control the way you think.</p>
-
-				<p>You're constantly talking to yourself — all the time. Your mind is talking to you! You're talking to yourself right now. Research indicates that most people speak at a rate of 150 to 200 words per minute, but the mind can listen to about 500 to 600 words a minute. That's why you can listen to me and plan today's dinner at the same time.</p>
-
-				<p>In fact, our internal dialogue — the conversation we have with ourselves — is at a rate of 1,300 words per minute. How? Because our mind sees in pictures, and you can see a thought in a nanosecond!</p> 
-
-				<p>The problem is that a lot of us are like Job, who says, "Everything I say seems to condemn me" (Job 9:20 GN). He's saying, in effect, "Everything I say puts me down." If you are typical to the human race, you are your own worst critic.</p>
-
-				<p>We're always putting ourselves down. We walk into a room, smiling, but inside we're thinking, "I'm fat. I'm dumb. I'm ugly. And I'm always late!"</p>
-
-				<p>God wants us to stop putting ourselves down. When you put yourself down, who are you really putting down? When you say, "I'm fat. I'm dumb. I'm ugly. I'm no good. I have no talent," you're really pointing to the Creator who made you. When you say, "God, I'm worthless. I'm no good. I can't do anything," you're saying, "God, you blew it with me." That's why God says it's wrong to put yourself down.</p>
-
-				<p>How do you eliminate negative self-talk so you can become a more confident person? </p>
-
-				<p>The Bible teaches the principle of replacement. "Fix your thoughts on what is true and good and right … Think about all you can thank God for and be glad about" (Philippians 4:8 LB).</p>
-
-				<p>In other words, don't think about all those weaknesses in your life. Focus on who God wants you want to be and on what God wants to do in your life.</p>
-
-				<p>There isn't a better thing you can do to raise your confidence level than to start believing what God says about you. As I read through the Bible, chapter by chapter, and find a verse that speaks to me, I write it down on a card, memorize it, and then I affirm it back to God: "Father, thank you that I am valuable; I am significant; I am forgivable; I am capable." Let God renew your mind because "your life is shaped by your thoughts" (Proverbs 4:23 GN).</p>
+				<h3>Loving Each Other Will Help Your Church Grow</h3>
+				<p>“And all the believers lived in a wonderful harmony, holding everything in common. They sold whatever they owned and pooled their resources so that each person's need was met.” (Acts 2: 44-45, MSG)</p>
+				
+				<p>It is the too-little told secret of church growth. Loving churches grow. Cold churches don’t.</p>
+				
+				<p>That’s the story of the early church, too. They loved each other deeply. Acts 2:44-45 says, “And all the believers lived in a wonderful harmony, holding everything in common. They sold whatever they owned and pooled their resources so that each person's need was met.” (MSG)</p>
+				
+				<p>That’s radical love. The Roman government hated Christians. It was illegal to be a Christian. The Romans often tried to kill believers. But even the Romans would say that Christians really loved each other. You know it must be true if the enemies of the Church would say that! But the early Church was known for exactly that kind of love. It is the same kind of love that drew people to Jesus. The Bible said the early Church grew on a daily basis.</p>
+				
+				<p>We all want that kind of growth in our churches. The way to achieve that is to love like the early Church. We call that fellowship—or being as committed to our fellow believers as we are to Jesus.</p>
+				
+				<p>There are two reasons people haven’t come to Christ. They don’t know any Christians–or they do! People want to be around those who love them. When a church genuinely loves others, you will have to lock the doors to keep people out.</p>
+				
 
 			</div>
 			
