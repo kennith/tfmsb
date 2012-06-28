@@ -57,7 +57,7 @@ require_once 'core.php';
 				    
 				    <p>27 你們就是基督的身體，而且是各個部分中的一個。 28 在教會中，神所安排的：首先是使徒，第二是做先知傳道的，第三是教師，然後是有大能的；隨後是使人痊癒的恩賜、幫助的恩賜、管理的恩賜、各種殊言的恩賜。29 難道都是使徒嗎？都是做先知傳道的嗎？都是教師嗎？都是有大能的嗎？30 都有使人痊癒的恩賜嗎？都說殊言嗎？都翻譯殊言嗎？31 其實你們要渴慕那些更大的恩賜；而我還要把極其高超的道指示給你們。</p>
 
-				    <div style="text-align: center;"><a href="http://www.youtube.com/watch?v=AOBthOPuw2U"><img src="http://img.youtube.com/vi/AOBthOPuw2U/hqdefault.jpg" /></a></div>
+				    <div style="text-align: center;"><a href="http://www.youtube.com/watch?v=AOBthOPuw2U"><img src="http://img.youtube.com/vi/AOBthOPuw2U/default.jpg" /></a></div>
 			</div>
 
 			<div data-role="footer">
