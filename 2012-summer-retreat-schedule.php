@@ -55,7 +55,7 @@ require_once 'core.php';
 			<li>
 				<p class="ui-li-aside">10:00pm</p>
 				<h3 class="ui-li-heading">Dessert</h3>
-				<p class="ui-li-desc">Prepared by Caca</p>
+				<p class="ui-li-desc">Prepared by Caca and Heather</p>
 			</li>
 		</ul>
 	</div><!-- /content -->
