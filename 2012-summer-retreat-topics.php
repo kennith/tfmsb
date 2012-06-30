@@ -41,6 +41,8 @@ require_once 'core.php';
 			</div>
 
 			<div data-role="content">
+				<p>R & R</p>
+				<p>Repent, Reborn, Re....</p>
 			</div>
 		</div>
 		
