@@ -90,7 +90,7 @@ function getSongDisplay($songID, $htmlTagID='') {
 		$sd .= $stanza[$i];
 		if($i==0 && $chrous != '') {
 			$sd .= '<br /><hr />';
-			$sd .= '<div class="tf-stanza-number">Chrous:</div>';
+			$sd .= '<div class="tf-stanza-number">Chorus:</div>';
 			$sd .= $chrous;
 			
 		}
