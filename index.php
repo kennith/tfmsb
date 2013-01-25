@@ -61,6 +61,10 @@ $currentFMSongLeader = getCurrentFMSongLeader($currentFMID);
 						</li>
 						
 						<li>
+							<a href="http://26floor.com/tf/" rel="external">Calendar</a>
+						</li>
+
+						<li>
 							<a href="#qr" data-rel="dialog">QR</a>
 						</li>
 
