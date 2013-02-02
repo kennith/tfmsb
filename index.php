@@ -44,7 +44,7 @@ $currentFMSongLeader = getCurrentFMSongLeader($currentFMID);
 							<a href="song-of-the-week.php?fmid=<?php echo $currentFMID; ?>" rel="external" data-prefetch>本週詩歌 by <?php echo $currentFMSongLeader; ?></a>
 						</li>
 						<li>
-							<a href="#fv">團訓</a>
+							<a href="http://26floor.com/tf/" rel="external" >團訓</a>
 						</li>
 						<li>
 							<a href="#fs">團歌</a>
@@ -57,7 +57,7 @@ $currentFMSongLeader = getCurrentFMSongLeader($currentFMID);
 						</li>
 												
 						<li>
-							<a href="song-book.php" data-prefetch>歌書 <span class="tf-annot">experiential</span></a>
+							<a href="song-book.php" data-prefetch>歌書 <span class="tf-annot">experimental</span></a>
 						</li>
 						
 						<li>
